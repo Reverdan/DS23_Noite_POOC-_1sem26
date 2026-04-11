@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace VerificaPrimo.modelo
+{
+    public class Primo
+    {
+		private string mensagem;
+		private int num;
+
+        public Primo(int num)
+        {
+            this.num = num;
+            Verificar();
+        }
+
+        private void Verificar()
+        {
+
+        }
+
+        public string Mensagem
+		{
+			get { return mensagem; }
+		}
+
+	}
+}

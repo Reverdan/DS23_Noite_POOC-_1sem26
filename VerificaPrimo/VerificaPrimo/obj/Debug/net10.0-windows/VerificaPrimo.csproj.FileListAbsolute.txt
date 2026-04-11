@@ -1,0 +1,16 @@
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\bin\Debug\net10.0-windows\VerificaPrimo.exe
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\bin\Debug\net10.0-windows\VerificaPrimo.deps.json
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\bin\Debug\net10.0-windows\VerificaPrimo.runtimeconfig.json
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\bin\Debug\net10.0-windows\VerificaPrimo.dll
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\bin\Debug\net10.0-windows\VerificaPrimo.pdb
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.Form1.resources
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.csproj.GenerateResource.cache
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.AssemblyInfoInputs.cache
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.AssemblyInfo.cs
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.csproj.CoreCompileInputs.cache
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.dll
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\refint\VerificaPrimo.dll
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.pdb
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\VerificaPrimo.genruntimeconfig.cache
+C:\Users\Rever\Documents\GitHub\POO1sem26\VerificaPrimo\VerificaPrimo\obj\Debug\net10.0-windows\ref\VerificaPrimo.dll
