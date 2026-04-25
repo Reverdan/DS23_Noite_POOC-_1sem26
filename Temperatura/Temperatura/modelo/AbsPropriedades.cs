@@ -6,11 +6,18 @@ namespace Temperatura.modelo
 {
     public abstract class AbsPropriedades : IMetodos
     {
-        public String mensagem;
-        public String resposta;
-        public String temp;
-        public Double temperatura;
-        public String tipo;
+        protected String mensagem;
+        protected String resposta;
+        protected String temp;
+        protected String tipo;
+
+        private Double temperatura;
+
+        public Double Temperatura
+        {
+            get { return temperatura; } set { temperatura = value; }
+        }
+
 
         protected AbsPropriedades(string temp)
         {

@@ -20,7 +20,7 @@ namespace Temperatura
             {
                 controle = new Controle(txbTemperatura.Text, "CF");
             }
-            lblResultado.Text = controle.mensagem;
+            lblResultado.Text = controle.ToString();
         }
     }
 }

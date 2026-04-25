@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Temperatura")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac98d5a5753d5471592685bb6da3dd221c181ae3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45c95b9a8529cf7b492c7f5e3404a99771a1378d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Temperatura")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Temperatura")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

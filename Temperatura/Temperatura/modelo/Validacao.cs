@@ -15,12 +15,19 @@ namespace Temperatura.modelo
             this.mensagem = "";
             try
             {
-                this.temperatura = Convert.ToDouble(this.temp);
+                this.Temperatura = Convert.ToDouble(this.temp);
             }
             catch (Exception ex)
             {
                 this.mensagem = "Digite valores válidos";
             }
         }
+
+        public override string? ToString()
+        {
+            return mensagem;
+        }
+
+        
     }
 }
