@@ -58,18 +58,21 @@
             tsmPrimo.Name = "tsmPrimo";
             tsmPrimo.Size = new Size(180, 22);
             tsmPrimo.Text = "Primo";
+            tsmPrimo.Click += tsmPrimo_Click;
             // 
             // tsmTriangulos
             // 
             tsmTriangulos.Name = "tsmTriangulos";
             tsmTriangulos.Size = new Size(180, 22);
             tsmTriangulos.Text = "Triangulos";
+            tsmTriangulos.Click += tsmTriangulos_Click;
             // 
             // tsmFatorial
             // 
             tsmFatorial.Name = "tsmFatorial";
             tsmFatorial.Size = new Size(180, 22);
             tsmFatorial.Text = "Fatorial";
+            tsmFatorial.Click += tsmFatorial_Click;
             // 
             // frmPrincipal
             // 
