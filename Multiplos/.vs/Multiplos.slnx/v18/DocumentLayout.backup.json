@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0313BA27-B65C-4839-972D-E62A270B8BB7}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0313BA27-B65C-4839-972D-E62A270B8BB7}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\apresentacao\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\apresentacao\\frmtriangulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmtriangulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\apresentacao\\frmprimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmprimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\apresentacao\\frmfatorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmfatorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +31,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Form1.cs",
-              "RelativeDocumentMoniker": "Multiplos\\Form1.cs",
-              "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Form1.cs [Projeto]",
-              "RelativeToolTip": "Multiplos\\Form1.cs [Projeto]",
+              "Title": "frmPrincipal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrincipal.cs [Projeto]",
+              "RelativeToolTip": "Multiplos\\Apresentacao\\frmPrincipal.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T22:21:19.438Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmTriangulos.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmTriangulos.cs",
+              "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmTriangulos.cs",
+              "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmTriangulos.cs [Projeto]",
+              "RelativeToolTip": "Multiplos\\Apresentacao\\frmTriangulos.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:54:10.123Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPrimo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrimo.cs",
+              "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmPrimo.cs",
+              "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrimo.cs [Projeto]",
+              "RelativeToolTip": "Multiplos\\Apresentacao\\frmPrimo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:53:49.631Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmFatorial.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmFatorial.cs",
+              "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmFatorial.cs",
+              "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmFatorial.cs [Projeto]",
+              "RelativeToolTip": "Multiplos\\Apresentacao\\frmFatorial.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T22:53:05.192Z",
               "EditorCaption": " [Projeto]"
             }
           ]

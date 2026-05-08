@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Multiplos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0e4bf69e5273ed6cf2cff26f98ddcefb19035c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cacebb9c323fcd73edfa8d63bd6b5a21f19159d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Multiplos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Multiplos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
