@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\conversao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\conversao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\abspropriedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\abspropriedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\conversao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\conversao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\temperatura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\abspropriedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\abspropriedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\imetodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F232C69-146C-4BED-99CF-97B558E91641}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\imetodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\temperatura\\temperatura\\modelo\\imetodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{446853A9-01BD-F4F6-278D-A13BFE45710B}|Temperatura\\Temperatura.csproj|solutionrelative:temperatura\\modelo\\imetodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,50 +38,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\Form1.cs",
               "RelativeDocumentMoniker": "Temperatura\\Form1.cs",
               "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\Form1.cs",
               "RelativeToolTip": "Temperatura\\Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T00:07:38.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Conversao.cs",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\modelo\\Conversao.cs",
               "RelativeDocumentMoniker": "Temperatura\\modelo\\Conversao.cs",
               "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\modelo\\Conversao.cs",
               "RelativeToolTip": "Temperatura\\modelo\\Conversao.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwA4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T23:30:19.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T23:30:19.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Controle.cs",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\modelo\\Controle.cs",
               "RelativeDocumentMoniker": "Temperatura\\modelo\\Controle.cs",
               "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\modelo\\Controle.cs",
               "RelativeToolTip": "Temperatura\\modelo\\Controle.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T23:25:04.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AbsPropriedades.cs",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\modelo\\AbsPropriedades.cs",
               "RelativeDocumentMoniker": "Temperatura\\modelo\\AbsPropriedades.cs",
@@ -89,8 +88,7 @@
               "RelativeToolTip": "Temperatura\\modelo\\AbsPropriedades.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAASwB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T23:04:27.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T23:04:27.707Z"
             },
             {
               "$type": "Document",
@@ -102,20 +100,18 @@
               "RelativeToolTip": "Temperatura\\modelo\\Validacao.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T22:58:04.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T22:58:04.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\Form1.cs",
               "RelativeDocumentMoniker": "Temperatura\\Form1.cs",
               "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Temperatura\\Temperatura\\Form1.cs [Projeto]",
               "RelativeToolTip": "Temperatura\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T22:36:51.028Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-04-17T22:36:51.028Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "Temperatura\\modelo\\IMetodos.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T22:54:36.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T22:54:36.161Z"
             }
           ]
         }

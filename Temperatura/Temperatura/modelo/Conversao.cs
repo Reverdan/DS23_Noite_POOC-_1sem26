@@ -14,13 +14,18 @@ namespace Temperatura.modelo
         {
             if (this.tipo.Equals("CF"))
             {
-                this.resposta = ((this.temperatura - 32) * 5 / 9).ToString();
+                this.resposta = ((this.Temperatura - 32) * 5 / 9).ToString();
 
             }
             else
             {
-                this.resposta = ((this.temperatura * 9 / 5) + 32).ToString();
+                this.resposta = ((this.Temperatura * 9 / 5) + 32).ToString();
             }
+        }
+
+        public override string ToString()
+        {
+            return this.resposta;
         }
     }
 }
