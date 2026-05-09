@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\modelo\\abspropriedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\modelo\\abspropriedades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\modelo\\intmetodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\modelo\\intmetodos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\apresentacao\\frmprimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmprimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\multiplos\\apresentacao\\frmprimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmprimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\apresentacao\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|c:\\users\\rever\\documents\\github\\ds23_noite_pooc-_1sem26\\multiplos\\multiplos\\apresentacao\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\multiplos\\apresentacao\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\multiplos\\apresentacao\\frmtriangulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmtriangulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\multiplos\\apresentacao\\frmprimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|solutionrelative:multiplos\\apresentacao\\frmprimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22A87AB3-563E-7B7E-9381-0C20BDD9F203}|Multiplos\\Multiplos.csproj|C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\multiplos\\apresentacao\\frmfatorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -35,31 +47,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AbsPropriedades.cs",
+              "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Modelo\\AbsPropriedades.cs",
+              "RelativeDocumentMoniker": "Multiplos\\Modelo\\AbsPropriedades.cs",
+              "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Modelo\\AbsPropriedades.cs",
+              "RelativeToolTip": "Multiplos\\Modelo\\AbsPropriedades.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA7wDkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T00:11:17.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IntMetodos.cs",
+              "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Modelo\\IntMetodos.cs",
+              "RelativeDocumentMoniker": "Multiplos\\Modelo\\IntMetodos.cs",
+              "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Modelo\\IntMetodos.cs",
+              "RelativeToolTip": "Multiplos\\Modelo\\IntMetodos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T00:07:47.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPrimo.cs",
+              "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrimo.cs",
+              "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmPrimo.cs",
+              "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrimo.cs",
+              "RelativeToolTip": "Multiplos\\Apresentacao\\frmPrimo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T00:04:20.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "frmPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmPrincipal.cs",
               "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrincipal.cs",
               "RelativeToolTip": "Multiplos\\Apresentacao\\frmPrincipal.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAWwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T23:39:47.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "frmPrincipal.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrincipal.cs",
               "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmPrincipal.cs",
               "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrincipal.cs [Projeto]",
               "RelativeToolTip": "Multiplos\\Apresentacao\\frmPrincipal.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T22:21:19.438Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2026-05-08T22:21:19.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "frmTriangulos.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmTriangulos.cs",
               "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmTriangulos.cs",
@@ -77,11 +127,12 @@
               "ToolTip": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmPrimo.cs [Projeto]",
               "RelativeToolTip": "Multiplos\\Apresentacao\\frmPrimo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T22:53:49.631Z"
+              "WhenOpened": "2026-05-08T22:53:49.631Z",
+              "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "frmFatorial.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Rever\\Documents\\GitHub\\DS23_Noite_POOC-_1sem26\\Multiplos\\Multiplos\\Apresentacao\\frmFatorial.cs",
               "RelativeDocumentMoniker": "Multiplos\\Apresentacao\\frmFatorial.cs",
