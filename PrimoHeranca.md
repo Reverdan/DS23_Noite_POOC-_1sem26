@@ -1,12 +1,12 @@
-# 🧮 Projeto VerificaPrimoHerança — Explicação Detalhada
+﻿# Projeto VerificaPrimoHerança — Explicação Detalhada
 
-## 📋 Descrição Geral
+## Descrição Geral
 
-O **VerificaPrimoHerança** é uma evolução do projeto VerificaPrimo, implementando o conceito de **herança** da Programação Orientada a Objetos (POO). O objetivo é mostrar como a reutilização de código e a generalização de propriedades podem tornar o sistema mais flexível, organizado e preparado para futuras expansões.
+O **VerificaPrimoHerança** é uma evolução do projeto VerificaPrimo, implementando o conceito de **herança** da Programação Orientada a Objetos (POO). O objetivo é demonstrar como a reutilização de código e a generalização de propriedades podem tornar o sistema mais flexível, organizado e preparado para futuras expansões.
 
 ---
 
-## 🏗️ Estrutura e Arquitetura
+## Estrutura e Arquitetura
 
 O projeto está organizado em camadas, com destaque para a classe abstrata base:
 
@@ -22,7 +22,7 @@ VerificaPrimoHeranca/
 
 ---
 
-## 🔄 Fluxo de Funcionamento
+## Fluxo de Funcionamento
 
 1. **Entrada do Usuário:** O usuário digita um número e aciona a verificação.
 2. **Form1 (View):** Instancia a classe `Controle`, passando o valor digitado.
@@ -33,14 +33,14 @@ VerificaPrimoHeranca/
 
 ---
 
-## 🧩 Conceitos de Orientação a Objetos Aplicados
+## Conceitos de Orientação a Objetos Aplicados
 
 ### 1. Herança
 - A classe abstrata `AbsPropriedades` centraliza atributos e propriedades comuns (`Mensagem`, `Numero`, `N1`, `Num`).
 - As classes `Controle`, `Validacao` e `Primo` herdam de `AbsPropriedades`, evitando duplicação de código e facilitando manutenção.
 
 ### 2. Abstração
-- `AbsPropriedades` é uma **classe abstrata**: não pode ser instanciada diretamente, serve apenas como base para outras classes.
+- `AbsPropriedades` é uma **classe abstrata**: não pode ser instanciada diretamente, servindo apenas como base para outras classes.
 - Define propriedades genéricas que podem ser utilizadas e especializadas pelas subclasses.
 
 ### 3. Encapsulamento
@@ -48,12 +48,12 @@ VerificaPrimoHeranca/
 - Métodos internos como `Validar()` e `Verificar()` continuam privados, protegendo a lógica interna.
 
 ### 4. Construtores e Polimorfismo
-- Cada classe derivada possui seu próprio construtor, inicializando os dados e executando a lógica necessária.
-- O polimorfismo é facilitado pela herança, permitindo tratar objetos das subclasses de forma genérica se necessário.
+- Os construtores são utilizados para inicializar os objetos em estado válido.
+- O polimorfismo é aplicado por meio da sobrescrita de métodos nas subclasses.
 
 ---
 
-## 🏛️ Padrões de Projeto Utilizados
+## Padrões de Projeto Utilizados
 
 ### Herança e Generalização
 - O uso de uma superclasse abstrata (`AbsPropriedades`) é um padrão clássico para evitar repetição e promover a generalização de propriedades e métodos.
@@ -65,7 +65,7 @@ VerificaPrimoHeranca/
   - **Model:** `Validacao` e `Primo`
 
 ### Facade
-- O projeto VerificaPrimoHerança também aplica o padrão de projeto **Facade**:
+- O projeto VerificaPrimoHerança tambémb aplica o padrão de projeto **Facade**:
 
   - **O que é o Facade?**
     - O padrão Facade fornece uma interface simplificada para um subsistema complexo, centralizando o acesso e escondendo detalhes internos.
@@ -82,13 +82,13 @@ VerificaPrimoHeranca/
 
 ---
 
-## 🧠 Algoritmo de Verificação de Primo
+## Algoritmo de Verificação de Primo
 
 A lógica de verificação de número primo permanece eficiente e encapsulada na classe `Primo`, agora herdando as propriedades necessárias da superclasse.
 
 ---
 
-## 🚀 Benefícios da Arquitetura com Herança
+## Benefícios da Arquitetura com Herança
 
 - **Reutilização:** Propriedades comuns centralizadas em `AbsPropriedades`.
 - **Facilidade de manutenção:** Alterações em propriedades comuns são feitas em um único lugar.
@@ -97,25 +97,26 @@ A lógica de verificação de número primo permanece eficiente e encapsulada na
 
 ---
 
-## 🧱 Princípios SOLID no Projeto
+## Princípios SOLID no Projeto
 
-O VerificaPrimoHerança também demonstra a aplicação dos princípios **SOLID** da orientação a objetos:
+O VerificaPrimoHerança tambémb demonstra a aplicação dos princípios **SOLID** da orientação a objetos:
 
-- **S — Single Responsibility Principle (Responsabilidade Única):**
+- **S â€” Single Responsibility Principle (Responsabilidade Única):**
   - Cada classe tem uma responsabilidade bem definida: `Controle` coordena, `Validacao` valida, `Primo` verifica, e `AbsPropriedades` centraliza propriedades comuns.
 
-- **O — Open/Closed Principle (Aberto/Fechado):**
+- **O â€” Open/Closed Principle (Aberto/Fechado):**
   - As classes podem ser estendidas (herança), mas não precisam ser modificadas para novos comportamentos. Por exemplo, é possível criar novas validações ou verificações herdando de `AbsPropriedades`.
 
-- **L — Liskov Substitution Principle (Substituição de Liskov):**
+- **L â€” Liskov Substitution Principle (Substituição de Liskov):**
   - Qualquer classe derivada de `AbsPropriedades` pode ser usada no lugar da superclasse sem alterar o funcionamento do sistema.
 
-- **I — Interface Segregation Principle (Segregação de Interface):**
+- **I â€” Interface Segregation Principle (Segregação de Interface):**
   - O projeto utiliza propriedades e métodos específicos em cada classe, evitando interfaces grandes e genéricas. Cada classe expõe apenas o necessário.
 
-- **D — Dependency Inversion Principle (Inversão de Dependência):**
+- **D â€” Dependency Inversion Principle (Inversão de Dependência):**
   - O controle do fluxo é feito por abstrações (a superclasse), e não por implementações concretas. O formulário depende apenas de `Controle`, que abstrai o restante do sistema.
 
 ---
+
 
 

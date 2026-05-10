@@ -1,12 +1,12 @@
-# 🧮 Projeto VerificaPrimo — Explicação Detalhada
+﻿# Projeto VerificaPrimo — Explicação Detalhada
 
-## 📋 Descrição Geral
+## Descrição Geral
 
 O **VerificaPrimo** é um aplicativo Windows Forms em C# que permite ao usuário informar um número e verificar se ele é primo. O projeto foi desenvolvido aplicando princípios sólidos de **Programação Orientada a Objetos (POO)**, com separação clara de responsabilidades e uso de padrões de projeto para garantir código limpo, reutilizável e de fácil manutenção.
 
 ---
 
-## 🏗️ Estrutura e Arquitetura
+## Estrutura e Arquitetura
 
 O projeto está organizado em camadas, separando a interface gráfica (Form1) da lógica de negócio (modelo):
 
@@ -21,7 +21,7 @@ VerificaPrimo/
 
 ---
 
-## 🔄 Fluxo de Funcionamento
+## Fluxo de Funcionamento
 
 1. **Entrada do Usuário:** O usuário digita um número e clica em "Verificar".
 2. **Form1 (View):** Captura o evento de clique e instancia a classe `Controle`, passando o valor digitado.
@@ -32,7 +32,7 @@ VerificaPrimo/
 
 ---
 
-## 🧩 Conceitos de Orientação a Objetos Aplicados
+## Conceitos de Orientação a Objetos Aplicados
 
 ### 1. Responsabilidade Única (SRP)
 - **Form1:** Responsável apenas pela interface e interação com o usuário.
@@ -47,25 +47,25 @@ VerificaPrimo/
 ### 3. Construtores
 - Todas as classes de modelo (`Controle`, `Validacao`, `Primo`) utilizam construtores para garantir que o objeto já seja criado em estado válido e pronto para uso, executando automaticamente os métodos necessários.
 
-### 4. Propriedades
-- O acesso aos resultados e mensagens é feito por meio de propriedades públicas somente leitura, garantindo segurança e consistência dos dados.
+### 4. Polimorfismo
+- O polimorfismo é aplicado por meio da sobrescrita de métodos, permitindo que cada classe implemente sua lógica específica.
 
 ---
 
-## 🏛️ Padrões de Projeto Utilizados
+## Padrões de Projeto Utilizados
 
 ### MVC Simplificado
 - O projeto segue um padrão **MVC simplificado**:
   - **View:** `Form1` (interface gráfica)
   - **Controller:** `Controle` (coordenação do fluxo)
-  - **Model:** `Validacao` e `Primo` (lógica de negócio)
+  - **Model:** `Validacao` e `Primo` (lógica de negócios)
 
 ### Encapsulamento e Delegação
-- O Controller delega responsabilidades para as classes de validação e lógica de negócio, promovendo baixo acoplamento e alta coesão.
+- O Controller delega responsabilidades para as classes de validação e lógica de negócios, promovendo baixo acoplamento e alta coesão.
 
 ---
 
-## 🧠 Algoritmo de Verificação de Primo
+## Algoritmo de Verificação de Primo
 
 A classe `Primo` implementa um algoritmo eficiente:
 - Números menores ou iguais a 1 não são primos.
@@ -75,7 +75,7 @@ A classe `Primo` implementa um algoritmo eficiente:
 
 ---
 
-## 🚀 Benefícios da Arquitetura
+## Benefícios da Arquitetura
 
 - **Manutenção facilitada:** Alterações em validação ou lógica de primo não afetam a interface.
 - **Reutilização:** As classes de validação e verificação podem ser usadas em outros projetos.
@@ -83,4 +83,5 @@ A classe `Primo` implementa um algoritmo eficiente:
 - **Clareza:** O fluxo de dados e responsabilidades é transparente.
 
 ---
+
 
