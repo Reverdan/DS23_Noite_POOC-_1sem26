@@ -4,11 +4,8 @@ using System.Text;
 
 namespace Multiplos.Modelo
 {
-    public class Primo : AbsPropriedades
+    public class Primo : absPropriedades
     {
-        public Primo()
-        {
-        }
 
         public Primo(int numero) : base(numero)
         {
@@ -16,36 +13,20 @@ namespace Multiplos.Modelo
 
         public override void Executar()
         {
-            if (numero <= 1)
-            {
-                mensagem = $"O número {numero} não é primo.";
-                return;
-            }
-
-            if (numero == 2)
-            {
-                mensagem = $"O número {numero} é primo.";
-                return;
-            }
-
-            if (numero % 2 == 0)
-            {
-                mensagem = $"O número {numero} não é primo.";
-                return;
-            }
-
-            int limite = (int)Math.Sqrt(numero);
-
-            for (int i = 3; i <= limite; i += 2)
+            this.mensagem = "É primo";
+            for (int i = 2; i < numero / 2 + 1; i++)
             {
                 if (numero % i == 0)
                 {
-                    mensagem = $"O número {numero} não é primo.";
-                    return;
+                    this.mensagem = "Não é primo";
+                    break;
+                }
+                if (i > 3)
+                {
+                    if (i % 2 != 0)
+                        i++;
                 }
             }
-
-            mensagem = $"O número {numero} é primo.";
         }
     }
 }

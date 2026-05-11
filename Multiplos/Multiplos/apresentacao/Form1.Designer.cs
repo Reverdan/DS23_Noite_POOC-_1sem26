@@ -1,6 +1,6 @@
 ﻿namespace Multiplos
 {
-    partial class frmPrincipal
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -41,10 +41,9 @@
             mnsCalculos.Items.AddRange(new ToolStripItem[] { tsmCalculos });
             mnsCalculos.Location = new Point(0, 0);
             mnsCalculos.Name = "mnsCalculos";
-            mnsCalculos.Size = new Size(274, 24);
+            mnsCalculos.Size = new Size(275, 24);
             mnsCalculos.TabIndex = 0;
-            mnsCalculos.TabStop = true;
-            mnsCalculos.Text = "mnsCalculos";
+            mnsCalculos.Text = "menuStrip1";
             // 
             // tsmCalculos
             // 
@@ -72,17 +71,17 @@
             tsmFatorial.Name = "tsmFatorial";
             tsmFatorial.Size = new Size(180, 22);
             tsmFatorial.Text = "Fatorial";
-            tsmFatorial.Click += tsmFatorial_Click;
+            tsmFatorial.Click += this.tsmFatorial_Click;
             // 
-            // frmPrincipal
+            // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(274, 174);
+            ClientSize = new Size(275, 210);
             Controls.Add(mnsCalculos);
             MainMenuStrip = mnsCalculos;
-            Name = "frmPrincipal";
-            Text = "Múltiplos";
+            Name = "Form1";
+            Text = "Calculos";
             mnsCalculos.ResumeLayout(false);
             mnsCalculos.PerformLayout();
             ResumeLayout(false);

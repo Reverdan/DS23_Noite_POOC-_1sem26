@@ -1,4 +1,4 @@
-﻿namespace Multiplos.Apresentacao
+﻿namespace Multiplos.apresentacao
 {
     partial class frmFatorial
     {
@@ -28,31 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            txbNumero = new TextBox();
+            txbFatorial = new TextBox();
             btnCalcular = new Button();
             lblResposta = new Label();
             SuspendLayout();
             // 
-            // txbNumero
+            // txbFatorial
             // 
-            txbNumero.Location = new Point(45, 33);
-            txbNumero.Name = "txbNumero";
-            txbNumero.Size = new Size(132, 23);
-            txbNumero.TabIndex = 0;
+            txbFatorial.Location = new Point(35, 22);
+            txbFatorial.Name = "txbFatorial";
+            txbFatorial.Size = new Size(156, 23);
+            txbFatorial.TabIndex = 0;
             // 
             // btnCalcular
             // 
-            btnCalcular.Location = new Point(45, 79);
+            btnCalcular.Location = new Point(35, 64);
             btnCalcular.Name = "btnCalcular";
-            btnCalcular.Size = new Size(132, 23);
+            btnCalcular.Size = new Size(156, 23);
             btnCalcular.TabIndex = 1;
             btnCalcular.Text = "Calcular";
             btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
             // lblResposta
             // 
             lblResposta.AutoSize = true;
-            lblResposta.Location = new Point(45, 127);
+            lblResposta.Location = new Point(35, 109);
             lblResposta.Name = "lblResposta";
             lblResposta.Size = new Size(54, 15);
             lblResposta.TabIndex = 2;
@@ -62,10 +63,10 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(222, 172);
+            ClientSize = new Size(235, 165);
             Controls.Add(lblResposta);
             Controls.Add(btnCalcular);
-            Controls.Add(txbNumero);
+            Controls.Add(txbFatorial);
             Name = "frmFatorial";
             Text = "Fatorial";
             ResumeLayout(false);
@@ -74,7 +75,7 @@
 
         #endregion
 
-        private TextBox txbNumero;
+        private TextBox txbFatorial;
         private Button btnCalcular;
         private Label lblResposta;
     }

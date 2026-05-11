@@ -4,19 +4,20 @@ using System.Text;
 
 namespace Multiplos.Modelo
 {
-    public abstract class AbsPropriedades : IntMetodos
+    public abstract class absPropriedades : IntMetodos
     {
         protected String numero1;
-        protected String numero2; 
+        protected String numero2;
         protected String numero3;
         protected Double lado1;
         protected Double lado2;
         protected Double lado3;
-        protected String resposta;
         protected Int32 numero;
+        protected String resposta;
+
         protected String mensagem;
 
-        protected AbsPropriedades(double lado1, double lado2, double lado3)
+        protected absPropriedades(double lado1, double lado2, double lado3)
         {
             this.lado1 = lado1;
             this.lado2 = lado2;
@@ -24,7 +25,7 @@ namespace Multiplos.Modelo
             this.Executar();
         }
 
-        protected AbsPropriedades(string numero1, string numero2, string numero3)
+        protected absPropriedades(string numero1, string numero2, string numero3)
         {
             this.numero1 = numero1;
             this.numero2 = numero2;
@@ -32,20 +33,21 @@ namespace Multiplos.Modelo
             this.Executar();
         }
 
-        protected AbsPropriedades(string numero1)
+        protected absPropriedades(string numero1)
         {
             this.numero1 = numero1;
             this.Executar();
         }
 
-        protected AbsPropriedades(int numero)
+        protected absPropriedades(int numero)
         {
             this.numero = numero;
             this.Executar();
         }
 
-        protected AbsPropriedades()
+        protected absPropriedades()
         {
+            this.Executar();
         }
 
         public String Mensagem
@@ -53,11 +55,30 @@ namespace Multiplos.Modelo
             get { return mensagem; }
         }
 
-        public abstract void Executar();
+        public Int32 Numero
+        {
+            get { return numero; }
+        }
 
         public override string? ToString()
         {
             return this.mensagem;
         }
+
+        public Double Lado1
+        {
+            get { return lado1; }
+        }
+        public Double Lado2
+        {
+            get { return lado2; }
+        }
+        public Double Lado3     
+        {
+            get { return lado3; }
+        }
+
+
+        public abstract void Executar();
     }
 }

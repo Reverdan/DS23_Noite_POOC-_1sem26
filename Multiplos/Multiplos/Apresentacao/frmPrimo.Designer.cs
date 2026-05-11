@@ -1,4 +1,4 @@
-﻿namespace Multiplos.Apresentacao
+﻿namespace Multiplos.apresentacao
 {
     partial class frmPrimo
     {
@@ -29,43 +29,44 @@
         private void InitializeComponent()
         {
             lblResposta = new Label();
-            btnVerificar = new Button();
-            txbNumero = new TextBox();
+            btnCalcular = new Button();
+            txbPrimo = new TextBox();
             SuspendLayout();
             // 
             // lblResposta
             // 
             lblResposta.AutoSize = true;
-            lblResposta.Location = new Point(47, 135);
+            lblResposta.Location = new Point(36, 126);
             lblResposta.Name = "lblResposta";
             lblResposta.Size = new Size(54, 15);
             lblResposta.TabIndex = 5;
             lblResposta.Text = "Resposta";
             // 
-            // btnVerificar
+            // btnCalcular
             // 
-            btnVerificar.Location = new Point(47, 87);
-            btnVerificar.Name = "btnVerificar";
-            btnVerificar.Size = new Size(132, 23);
-            btnVerificar.TabIndex = 4;
-            btnVerificar.Text = "Verificar";
-            btnVerificar.UseVisualStyleBackColor = true;
+            btnCalcular.Location = new Point(36, 81);
+            btnCalcular.Name = "btnCalcular";
+            btnCalcular.Size = new Size(156, 23);
+            btnCalcular.TabIndex = 4;
+            btnCalcular.Text = "Calcular";
+            btnCalcular.UseVisualStyleBackColor = true;
+            btnCalcular.Click += btnCalcular_Click;
             // 
-            // txbNumero
+            // txbPrimo
             // 
-            txbNumero.Location = new Point(47, 41);
-            txbNumero.Name = "txbNumero";
-            txbNumero.Size = new Size(132, 23);
-            txbNumero.TabIndex = 3;
+            txbPrimo.Location = new Point(36, 39);
+            txbPrimo.Name = "txbPrimo";
+            txbPrimo.Size = new Size(156, 23);
+            txbPrimo.TabIndex = 3;
             // 
             // frmPrimo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(220, 183);
+            ClientSize = new Size(230, 172);
             Controls.Add(lblResposta);
-            Controls.Add(btnVerificar);
-            Controls.Add(txbNumero);
+            Controls.Add(btnCalcular);
+            Controls.Add(txbPrimo);
             Name = "frmPrimo";
             Text = "Primo";
             ResumeLayout(false);
@@ -75,7 +76,7 @@
         #endregion
 
         private Label lblResposta;
-        private Button btnVerificar;
-        private TextBox txbNumero;
+        private Button btnCalcular;
+        private TextBox txbPrimo;
     }
 }

@@ -1,34 +1,34 @@
-using Multiplos.Apresentacao;
+using Multiplos.apresentacao;
 
 namespace Multiplos
 {
-    public partial class frmPrincipal : Form
+    public partial class Form1 : Form
     {
-        public frmPrincipal()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-
-
-        private void tsmTriangulos_Click(object sender, EventArgs e)
-        {
-            frmTriangulos frmT = new frmTriangulos();
-            this.Visible = false;
-            frmT.ShowDialog();
-            this.Visible = true;
-        }
-
-        private void tsmFatorial_Click(object sender, EventArgs e)
-        {
-            frmFatorial frmF = new frmFatorial();
-            frmF.Show();
         }
 
         private void tsmPrimo_Click(object sender, EventArgs e)
         {
             frmPrimo frmP = new frmPrimo();
+            this.Visible = false;
             frmP.ShowDialog();
+            this.Visible = true;
+
         }
+
+        private void tsmTriangulos_Click(object sender, EventArgs e)
+        {
+            frmTriangulos frmT = new frmTriangulos();
+            frmT.ShowDialog();
+        }
+
+        private void tsmFatorial_Click(object sender, EventArgs e)
+        {
+            frmFatorial frmF = new frmFatorial();
+            frmF.ShowDialog();
+        }
+
     }
 }
