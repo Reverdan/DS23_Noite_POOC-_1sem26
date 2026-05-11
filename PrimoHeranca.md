@@ -101,19 +101,19 @@ A lógica de verificação de número primo permanece eficiente e encapsulada na
 
 O VerificaPrimoHerança tambémb demonstra a aplicação dos princípios **SOLID** da orientação a objetos:
 
-- **S â€” Single Responsibility Principle (Responsabilidade Única):**
+- **S — Single Responsibility Principle (Responsabilidade Única):**
   - Cada classe tem uma responsabilidade bem definida: `Controle` coordena, `Validacao` valida, `Primo` verifica, e `AbsPropriedades` centraliza propriedades comuns.
 
-- **O â€” Open/Closed Principle (Aberto/Fechado):**
+- **O — Open/Closed Principle (Aberto/Fechado):**
   - As classes podem ser estendidas (herança), mas não precisam ser modificadas para novos comportamentos. Por exemplo, é possível criar novas validações ou verificações herdando de `AbsPropriedades`.
 
-- **L â€” Liskov Substitution Principle (Substituição de Liskov):**
+- **L — Liskov Substitution Principle (Substituição de Liskov):**
   - Qualquer classe derivada de `AbsPropriedades` pode ser usada no lugar da superclasse sem alterar o funcionamento do sistema.
 
-- **I â€” Interface Segregation Principle (Segregação de Interface):**
+- **I — Interface Segregation Principle (Segregação de Interface):**
   - O projeto utiliza propriedades e métodos específicos em cada classe, evitando interfaces grandes e genéricas. Cada classe expõe apenas o necessário.
 
-- **D â€” Dependency Inversion Principle (Inversão de Dependência):**
+- **D — Dependency Inversion Principle (Inversão de Dependência):**
   - O controle do fluxo é feito por abstrações (a superclasse), e não por implementações concretas. O formulário depende apenas de `Controle`, que abstrai o restante do sistema.
 
 ---

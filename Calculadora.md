@@ -1,108 +1,108 @@
-﻿# ðŸ“± Calculadora - AplicaÃ§Ã£o Windows Forms (.NET 8)
+﻿# ðŸ“± Calculadora - Aplicação Windows Forms (.NET 8)
 
-## ðŸ“‹ DescriÃ§Ã£o
+## ðŸ“‹ Descrição
 
-AplicaÃ§Ã£o de calculadora desenvolvida em **C# .NET 8** utilizando **Windows Forms**, implementando conceitos fundamentais de **ProgramaÃ§Ã£o Orientada a Objetos (POO)** como responsabilidade Ãºnica, encapsulamento, propriedades e construtores.
+Aplicação de calculadora desenvolvida em **C# .NET 8** utilizando **Windows Forms**, implementando conceitos fundamentais de **Programação Orientada a Objetos (POO)** como responsabilidade única, encapsulamento, propriedades e construtores.
 
 ---
 
 ## ðŸ—ï¸ Arquitetura do Projeto
 
-O projeto estÃ¡ organizado em duas camadas principais:
+O projeto está organizado em duas camadas principais:
 
 ```
 Calculadora/
-â”œâ”€â”€ apresentacao/
-â”‚   â”œâ”€â”€ Form1.cs              # Interface grÃ¡fica (View)
-â”‚   â”œâ”€â”€ Form1.Designer.cs     # ConfiguraÃ§Ã£o dos componentes visuais
-â”‚   â””â”€â”€ Form1.resx            # Recursos do formulÃ¡rio
-â””â”€â”€ modelo/
-    â”œâ”€â”€ Controle.cs           # Controlador principal
-    â”œâ”€â”€ Validacao.cs          # ValidaÃ§Ã£o de dados
-    â””â”€â”€ Calculos.cs           # OperaÃ§Ãµes matemÃ¡ticas
+├── apresentacao/
+│   ├── Form1.cs              # Interface gráfica (View)
+│   ├── Form1.Designer.cs     # Configuração dos componentes visuais
+│   └── Form1.resx            # Recursos do formulário
+└── modelo/
+    ├── Controle.cs           # Controlador principal
+    ├── Validacao.cs          # Validação de dados
+    └── Calculos.cs           # Operações matemáticas
 ```
 
 ---
 
 ## ðŸ”„ Fluxo de Dados do Programa
 
-O fluxo de dados segue o padrÃ£o **MVC simplificado** (Model-View-Controller):
+O fluxo de dados segue o padrão **MVC simplificado** (Model-View-Controller):
 
 ### Detalhamento do Fluxo:
 
-1. **Entrada do UsuÃ¡rio**: O usuÃ¡rio digita dois nÃºmeros nos campos de texto e clica em um botÃ£o de operaÃ§Ã£o (+, -, *, /)
-2. **Captura na View**: O `Form1` captura o evento de clique e chama o mÃ©todo `Executar()`
-3. **CriaÃ§Ã£o do Controle**: Instancia a classe `Controle` passando os valores dos TextBoxes e a operaÃ§Ã£o
-4. **ValidaÃ§Ã£o**: A classe `Controle` cria uma instÃ¢ncia de `Validacao` que:
-   - Converte as strings em nÃºmeros double
-   - Verifica divisÃ£o por zero
-   - Captura exceÃ§Ãµes de conversÃ£o
-5. **CÃ¡lculo**: Se a validaÃ§Ã£o for bem-sucedida, cria uma instÃ¢ncia de `Calculos` que executa a operaÃ§Ã£o
-6. **Retorno**: O resultado (ou mensagem de erro) Ã© retornado para o `Form1` atravÃ©s da propriedade `Mensagem`
-7. **ExibiÃ§Ã£o**: O `lblResultado` exibe o resultado final
+1. **Entrada do Usuário**: O usuário digita dois números nos campos de texto e clica em um botão de operação (+, -, *, /)
+2. **Captura na View**: O `Form1` captura o evento de clique e chama o método `Executar()`
+3. **Criação do Controle**: Instancia a classe `Controle` passando os valores dos TextBoxes e a operação
+4. **Validação**: A classe `Controle` cria uma instância de `Validacao` que:
+   - Converte as strings em números double
+   - Verifica divisão por zero
+   - Captura exceções de conversão
+5. **Cálculo**: Se a validação for bem-sucedida, cria uma instância de `Calculos` que executa a operação
+6. **Retorno**: O resultado (ou mensagem de erro) é retornado para o `Form1` através da propriedade `Mensagem`
+7. **Exibição**: O `lblResultado` exibe o resultado final
 
 ---
 
 ## ðŸŽ¨ Componentes Visuais (Interface)
 
 ### **TextBox: `txbPrimeiroNumero`**
-- **FunÃ§Ã£o**: Campo de entrada para o primeiro nÃºmero da operaÃ§Ã£o
-- **LocalizaÃ§Ã£o**: Linha 1 do formulÃ¡rio
-- **CaracterÃ­sticas**: Aceita entrada de texto que serÃ¡ validada e convertida para nÃºmero
+- **Função**: Campo de entrada para o primeiro número da operação
+- **Localização**: Linha 1 do formulário
+- **Características**: Aceita entrada de texto que será validada e convertida para número
 
 ### **TextBox: `txbSegundoNumero`**
-- **FunÃ§Ã£o**: Campo de entrada para o segundo nÃºmero da operaÃ§Ã£o
-- **LocalizaÃ§Ã£o**: Linha 2 do formulÃ¡rio
-- **CaracterÃ­sticas**: Aceita entrada de texto que serÃ¡ validada e convertida para nÃºmero
+- **Função**: Campo de entrada para o segundo número da operação
+- **Localização**: Linha 2 do formulário
+- **Características**: Aceita entrada de texto que será validada e convertida para número
 
 ### **Label: `lblPrimeiroNumero`**
-- **FunÃ§Ã£o**: RÃ³tulo descritivo "Digite o primeiro nÃºmero"
-- **LocalizaÃ§Ã£o**: Acima do primeiro TextBox
-- **CaracterÃ­sticas**: OrientaÃ§Ã£o visual para o usuÃ¡rio
+- **Função**: Rótulo descritivo "Digite o primeiro número"
+- **Localização**: Acima do primeiro TextBox
+- **Características**: Orientação visual para o usuário
 
 ### **Label: `lblSegundoNumero`**
-- **FunÃ§Ã£o**: RÃ³tulo descritivo "Digite o segundo nÃºmero"
-- **LocalizaÃ§Ã£o**: Acima do segundo TextBox
-- **CaracterÃ­sticas**: OrientaÃ§Ã£o visual para o usuÃ¡rio
+- **Função**: Rótulo descritivo "Digite o segundo número"
+- **Localização**: Acima do segundo TextBox
+- **Características**: Orientação visual para o usuário
 
 ### **Button: `btnSomar`**
-- **FunÃ§Ã£o**: Executa a operaÃ§Ã£o de **adiÃ§Ã£o** (+)
+- **Função**: Executa a operação de **adição** (+)
 - **Evento**: `btnSomar_Click` â†’ chama `Executar("+")`
-- **LocalizaÃ§Ã£o**: Primeira linha de botÃµes (esquerda)
+- **Localização**: Primeira linha de botões (esquerda)
 
 ### **Button: `btnSubtrair`**
-- **FunÃ§Ã£o**: Executa a operaÃ§Ã£o de **subtraÃ§Ã£o** (-)
+- **Função**: Executa a operação de **subtração** (-)
 - **Evento**: `btnSubtrair_Click` â†’ chama `Executar("-")`
-- **LocalizaÃ§Ã£o**: Primeira linha de botÃµes (direita)
+- **Localização**: Primeira linha de botões (direita)
 
 ### **Button: `btnMultiplicar`**
-- **FunÃ§Ã£o**: Executa a operaÃ§Ã£o de **multiplicaÃ§Ã£o** (*)
+- **Função**: Executa a operação de **multiplicação** (*)
 - **Evento**: `btnMultiplicar_Click` â†’ chama `Executar("*")`
-- **LocalizaÃ§Ã£o**: Segunda linha de botÃµes (esquerda)
+- **Localização**: Segunda linha de botões (esquerda)
 
 ### **Button: `btnDividir`**
-- **FunÃ§Ã£o**: Executa a operaÃ§Ã£o de **divisÃ£o** (/)
+- **Função**: Executa a operação de **divisão** (/)
 - **Evento**: `btnDividir_Click` â†’ chama `Executar("/")`
-- **LocalizaÃ§Ã£o**: Segunda linha de botÃµes (direita)
+- **Localização**: Segunda linha de botões (direita)
 
 ### **Label: `lblResultado`**
-- **FunÃ§Ã£o**: Exibe o resultado da operaÃ§Ã£o ou mensagens de erro
-- **LocalizaÃ§Ã£o**: Parte inferior do formulÃ¡rio
-- **CaracterÃ­sticas**: ConteÃºdo dinÃ¢mico atualizado apÃ³s cada operaÃ§Ã£o
+- **Função**: Exibe o resultado da operação ou mensagens de erro
+- **Localização**: Parte inferior do formulário
+- **Características**: Conteúdo dinâmico atualizado após cada operação
 
 ---
 
 ## ðŸŽ¯ Conceito: Responsabilidade Ãšnica (SRP - Single Responsibility Principle)
 
-O **PrincÃ­pio da Responsabilidade Ãšnica** estabelece que **cada classe deve ter uma Ãºnica responsabilidade** ou motivo para mudar. Este projeto aplica rigorosamente este conceito:
+O **Princípio da Responsabilidade Ãšnica** estabelece que **cada classe deve ter uma única responsabilidade** ou motivo para mudar. Este projeto aplica rigorosamente este conceito:
 
-### **Classe `Form1` (ApresentaÃ§Ã£o)**
-- **Responsabilidade**: Gerenciar a interface grÃ¡fica e eventos do usuÃ¡rio
-- **NÃ£o faz**: ValidaÃ§Ã£o, cÃ¡lculos ou lÃ³gica de negÃ³cio
+### **Classe `Form1` (Apresentação)**
+- **Responsabilidade**: Gerenciar a interface gráfica e eventos do usuário
+- **Não faz**: Validação, cálculos ou lógica de negócio
 - **Apenas**: Captura entrada, delega processamento e exibe resultados
 
 ```csharp
-// âœ… Responsabilidade Ãºnica: Interface com usuÃ¡rio
+// âœ… Responsabilidade única: Interface com usuário
 private void Executar(String op)
 {
     Controle controle = new Controle(txbPrimeiroNumero.Text, txbSegundoNumero.Text, op);
@@ -111,12 +111,12 @@ private void Executar(String op)
 ```
 
 ### **Classe `Controle` (Controlador)**
-- **Responsabilidade**: Coordenar o fluxo entre validaÃ§Ã£o e cÃ¡lculo
-- **NÃ£o faz**: Interface, validaÃ§Ã£o de dados ou operaÃ§Ãµes matemÃ¡ticas
+- **Responsabilidade**: Coordenar o fluxo entre validação e cálculo
+- **Não faz**: Interface, validação de dados ou operações matemáticas
 - **Apenas**: Orquestra as chamadas entre `Validacao` e `Calculos`
 
 ```csharp
-// âœ… Responsabilidade Ãºnica: CoordenaÃ§Ã£o
+// âœ… Responsabilidade única: Coordenação
 private void Validar()
 {
     Validacao validacao = new Validacao(num1, num2, op);
@@ -130,27 +130,27 @@ private void Validar()
 
 ### **Classe `Validacao` (Modelo)**
 - **Responsabilidade**: Validar e converter os dados de entrada
-- **NÃ£o faz**: CÃ¡lculos ou interface
-- **Apenas**: Converte strings para double, valida divisÃ£o por zero e trata exceÃ§Ãµes
+- **Não faz**: Cálculos ou interface
+- **Apenas**: Converte strings para double, valida divisão por zero e trata exceções
 
 ```csharp
-// âœ… Responsabilidade Ãºnica: ValidaÃ§Ã£o de dados
+// âœ… Responsabilidade única: Validação de dados
 private void Validar()
 {
     n1 = Convert.ToDouble(num1);
     n2 = Convert.ToDouble(num2);
     if (op.Equals("/") && n2 == 0.0)
-        this.mensagem = "NÃ£o Ã© possÃ­vel dividir por zero.";
+        this.mensagem = "Não é possível dividir por zero.";
 }
 ```
 
 ### **Classe `Calculos` (Modelo)**
-- **Responsabilidade**: Executar operaÃ§Ãµes matemÃ¡ticas
-- **NÃ£o faz**: ValidaÃ§Ã£o ou interface
-- **Apenas**: Realiza as quatro operaÃ§Ãµes bÃ¡sicas
+- **Responsabilidade**: Executar operações matemáticas
+- **Não faz**: Validação ou interface
+- **Apenas**: Realiza as quatro operações básicas
 
 ```csharp
-// âœ… Responsabilidade Ãºnica: OperaÃ§Ãµes matemÃ¡ticas
+// âœ… Responsabilidade única: Operações matemáticas
 private void Calcular()
 {
     if (op.Equals("+")) resultado = n1 + n2;
@@ -160,22 +160,22 @@ private void Calcular()
 }
 ```
 
-### **BenefÃ­cios da Responsabilidade Ãšnica neste Projeto:**
-âœ… **Manutenibilidade**: AlteraÃ§Ãµes em cÃ¡lculos nÃ£o afetam validaÃ§Ã£o  
+### **Benefícios da Responsabilidade Ãšnica neste Projeto:**
+âœ… **Manutenibilidade**: Alterações em cálculos não afetam validação  
 âœ… **Testabilidade**: Cada classe pode ser testada isoladamente  
 âœ… **Reusabilidade**: A classe `Calculos` pode ser usada em outros projetos  
-âœ… **Clareza**: Fica evidente onde cada funcionalidade estÃ¡ implementada  
+âœ… **Clareza**: Fica evidente onde cada funcionalidade está implementada  
 
 ---
 
 ## ðŸ”’ Conceito: Encapsulamento
 
-**Encapsulamento** Ã© o princÃ­pio de **ocultar detalhes internos** de uma classe e expor apenas o necessÃ¡rio atravÃ©s de uma interface controlada. Este projeto demonstra encapsulamento atravÃ©s de:
+**Encapsulamento** é o princípio de **ocultar detalhes internos** de uma classe e expor apenas o necessário através de uma interface controlada. Este projeto demonstra encapsulamento através de:
 
 ### **1. Atributos Private (Dados Internos Protegidos)**
 
 ```csharp
-// âŒ NÃ£o acessÃ­vel fora da classe
+// âŒ Não acessível fora da classe
 private Double n1;
 private Double n2;
 private String op;
@@ -183,9 +183,9 @@ private Double resultado;
 ```
 
 **Por que usar `private`?**
-- Protege os dados de modificaÃ§Ãµes externas nÃ£o controladas
-- Evita inconsistÃªncias (ex: alguÃ©m alterar `resultado` sem executar o cÃ¡lculo)
-- Permite mudanÃ§as internas sem afetar cÃ³digo externo
+- Protege os dados de modificações externas não controladas
+- Evita inconsistências (ex: alguém alterar `resultado` sem executar o cálculo)
+- Permite mudanças internas sem afetar código externo
 
 ### **2. Propriedades Public (Interface Controlada)**
 
@@ -197,15 +197,15 @@ public Double Resultado
 }
 ```
 
-**CaracterÃ­sticas das Propriedades:**
-- **Somente leitura** (`get` apenas): ExpÃµe dados sem permitir modificaÃ§Ã£o externa
-- **ValidaÃ§Ã£o**: Pode incluir lÃ³gica de validaÃ§Ã£o no `set` (quando necessÃ¡rio)
-- **Flexibilidade**: Permite mudar implementaÃ§Ã£o interna sem afetar cÃ³digo que usa a classe
+**Características das Propriedades:**
+- **Somente leitura** (`get` apenas): Expõe dados sem permitir modificação externa
+- **Validação**: Pode incluir lógica de validação no `set` (quando necessário)
+- **Flexibilidade**: Permite mudar implementação interna sem afetar código que usa a classe
 
-### **3. MÃ©todos Private (LÃ³gica Interna Oculta)**
+### **3. Métodos Private (Lógica Interna Oculta)**
 
 ```csharp
-// âŒ MÃ©todo privado: lÃ³gica interna
+// âŒ Método privado: lógica interna
 private void Calcular()
 {
     if (op.Equals("+")) resultado = n1 + n2;
@@ -213,27 +213,27 @@ private void Calcular()
 }
 ```
 
-**Por que mÃ©todos privados?**
-- UsuÃ¡rios da classe nÃ£o precisam saber **como** o cÃ¡lculo Ã© feito
-- Podem ser refatorados sem afetar cÃ³digo externo
-- Reduzem a superfÃ­cie pÃºblica da classe
+**Por que métodos privados?**
+- Usuários da classe não precisam saber **como** o cálculo é feito
+- Podem ser refatorados sem afetar código externo
+- Reduzem a superfície pública da classe
 
-### **ComparaÃ§Ã£o: Com vs. Sem Encapsulamento**
+### **Comparação: Com vs. Sem Encapsulamento**
 
-#### âŒ **SEM Encapsulamento (MÃ¡ PrÃ¡tica)**
+#### âŒ **SEM Encapsulamento (Má Prática)**
 ```csharp
 public class CalculosMal
 {
-    public double n1;      // PÃºblico: pode ser alterado por qualquer cÃ³digo
+    public double n1;      // Público: pode ser alterado por qualquer código
     public double n2;
     public double resultado;
     
-    // Qualquer cÃ³digo pode fazer:
+    // Qualquer código pode fazer:
     // calc.resultado = 999; // Resultado incorreto!
 }
 ```
 
-#### âœ… **COM Encapsulamento (Boa PrÃ¡tica)**
+#### âœ… **COM Encapsulamento (Boa Prática)**
 ```csharp
 public class Calculos
 {
@@ -257,8 +257,8 @@ public class Calculos
 
 #### **Classe `Validacao`**
 ```csharp
-private Double n1;           // âŒ NÃ£o acessÃ­vel externamente
-private String mensagem;     // âŒ NÃ£o acessÃ­vel externamente
+private Double n1;           // âŒ Não acessível externamente
+private String mensagem;     // âŒ Não acessível externamente
 
 public double N1            // âœ… Acesso somente leitura
 {
@@ -271,7 +271,7 @@ public String Mensagem      // âœ… Acesso somente leitura
 }
 ```
 
-**BenefÃ­cio**: Garante que `n1` e `mensagem` sÃ³ sejam definidos pela validaÃ§Ã£o interna, nÃ£o por cÃ³digo externo.
+**Benefício**: Garante que `n1` e `mensagem` só sejam definidos pela validação interna, não por código externo.
 
 #### **Classe `Controle`**
 ```csharp
@@ -280,32 +280,32 @@ private String num2;
 private String op;
 private String mensagem;
 
-public Controle(String num1, String num2, String op)  // âœ… InicializaÃ§Ã£o controlada
+public Controle(String num1, String num2, String op)  // âœ… Inicialização controlada
 {
     this.num1 = num1.Replace(".", ",");
     this.num2 = num2.Replace(".", ",");
     this.op = op;
-    Validar();               // Processamento automÃ¡tico
+    Validar();               // Processamento automático
 }
 
 public string Mensagem { get => mensagem; }  // âœ… Somente leitura
 ```
 
-**BenefÃ­cio**: UsuÃ¡rios da classe nÃ£o podem criar um objeto `Controle` sem passar pelos processos de validaÃ§Ã£o e cÃ¡lculo.
+**Benefício**: Usuários da classe não podem criar um objeto `Controle` sem passar pelos processos de validação e cálculo.
 
 ### **Vantagens do Encapsulamento neste Projeto:**
-âœ… **SeguranÃ§a**: Dados nÃ£o podem ser corrompidos externamente  
-âœ… **ConsistÃªncia**: Estado interno sempre vÃ¡lido  
-âœ… **ManutenÃ§Ã£o**: MudanÃ§as internas nÃ£o afetam cÃ³digo externo  
-âœ… **Legibilidade**: Interface pÃºblica clara e simples  
+âœ… **Segurança**: Dados não podem ser corrompidos externamente  
+âœ… **Consistência**: Estado interno sempre válido  
+âœ… **Manutenção**: Mudanças internas não afetam código externo  
+âœ… **Legibilidade**: Interface pública clara e simples  
 
 ---
 
-## ðŸ—ï¸ Conceito: MÃ©todos Construtores
+## ðŸ—ï¸ Conceito: Métodos Construtores
 
-Um **construtor** Ã© um mÃ©todo especial que Ã© executado **automaticamente** quando um objeto Ã© criado. Ele **inicializa o estado** do objeto.
+Um **construtor** é um método especial que é executado **automaticamente** quando um objeto é criado. Ele **inicializa o estado** do objeto.
 
-### **CaracterÃ­sticas dos Construtores**
+### **Características dos Construtores**
 
 ```csharp
 public class Calculos
@@ -316,17 +316,17 @@ public class Calculos
         this.n1 = n1;
         this.n2 = n2;
         this.op = op;
-        Calcular();  // Executa cÃ¡lculo automaticamente
+        Calcular();  // Executa cálculo automaticamente
     }
 }
 ```
 
-**CaracterÃ­sticas:**
+**Características:**
 1. **Mesmo nome da classe**: `Calculos`
 2. **Sem tipo de retorno**: Nem void
-3. **Executado automaticamente**: Na criaÃ§Ã£o do objeto com `new`
+3. **Executado automaticamente**: Na criação do objeto com `new`
 4. **Inicializa atributos**: Define valores iniciais
-5. **Pode chamar mÃ©todos**: Como `Calcular()`
+5. **Pode chamar métodos**: Como `Calcular()`
 
 ### **Construtores no Projeto**
 
@@ -339,22 +339,22 @@ public Controle(String num1, String num2, String op)
     this.num2 = num2.Replace(".", ",");
     this.op = op;
     
-    // Inicia processo de validaÃ§Ã£o e cÃ¡lculo
+    // Inicia processo de validação e cálculo
     Validar();
 }
 ```
 
 **Responsabilidades:**
 - âœ… Recebe os dados da interface
-- âœ… Normaliza formato de nÃºmeros (ponto â†’ vÃ­rgula)
-- âœ… Inicia automaticamente a validaÃ§Ã£o
-- âœ… Garante que o objeto estÃ¡ pronto para uso
+- âœ… Normaliza formato de números (ponto â†’ vírgula)
+- âœ… Inicia automaticamente a validação
+- âœ… Garante que o objeto está pronto para uso
 
 **Uso:**
 ```csharp
-// Ao criar o objeto, tudo Ã© processado automaticamente
+// Ao criar o objeto, tudo é processado automaticamente
 Controle controle = new Controle("10.5", "2.3", "+");
-// ApÃ³s esta linha, controle.Mensagem jÃ¡ contÃ©m o resultado!
+// Após esta linha, controle.Mensagem já contém o resultado!
 ```
 
 #### **2. Classe `Validacao`**
@@ -365,21 +365,21 @@ public Validacao(String num1, String num2, String op)
     this.num2 = num2;
     this.op = op;
     
-    // Executa validaÃ§Ã£o automaticamente
+    // Executa validação automaticamente
     Validar();
 }
 ```
 
 **Responsabilidades:**
 - âœ… Armazena os dados recebidos
-- âœ… Executa validaÃ§Ã£o imediatamente
+- âœ… Executa validação imediatamente
 - âœ… Converte strings para double
-- âœ… Define mensagens de erro se necessÃ¡rio
+- âœ… Define mensagens de erro se necessário
 
 **Uso:**
 ```csharp
 Validacao validacao = new Validacao("15", "3", "/");
-// ApÃ³s esta linha, validacao.N1, validacao.N2 e validacao.Mensagem estÃ£o prontos
+// Após esta linha, validacao.N1, validacao.N2 e validacao.Mensagem estão prontos
 ```
 
 #### **3. Classe `Calculos`**
@@ -390,26 +390,26 @@ public Calculos(double n1, double n2, string op)
     this.n2 = n2;
     this.op = op;
     
-    // Executa cÃ¡lculo automaticamente
+    // Executa cálculo automaticamente
     Calcular();
 }
 ```
 
 **Responsabilidades:**
-- âœ… Recebe nÃºmeros jÃ¡ validados
-- âœ… Executa a operaÃ§Ã£o matemÃ¡tica
+- âœ… Recebe números já validados
+- âœ… Executa a operação matemática
 - âœ… Armazena o resultado
-- âœ… Garante que `Resultado` estÃ¡ disponÃ­vel imediatamente
+- âœ… Garante que `Resultado` está disponível imediatamente
 
 **Uso:**
 ```csharp
 Calculos calculos = new Calculos(10.0, 5.0, "*");
-// ApÃ³s esta linha, calculos.Resultado jÃ¡ contÃ©m 50.0
+// Após esta linha, calculos.Resultado já contém 50.0
 ```
 
 ### **Por que Usar Construtores?**
 
-#### âŒ **SEM Construtor (MÃ¡ PrÃ¡tica)**
+#### âŒ **SEM Construtor (Má Prática)**
 ```csharp
 public class CalculosMal
 {
@@ -423,7 +423,7 @@ public class CalculosMal
     }
 }
 
-// Uso: mÃºltiplas etapas, propenso a erros
+// Uso: múltiplas etapas, propenso a erros
 CalculosMal calc = new CalculosMal();
 calc.n1 = 10;           // Pode esquecer de definir
 calc.n2 = 5;            // Ordem pode ser confusa
@@ -431,7 +431,7 @@ calc.Calcular();        // Pode esquecer de chamar
 double res = calc.resultado;  // Pode usar antes de calcular!
 ```
 
-#### âœ… **COM Construtor (Boa PrÃ¡tica)**
+#### âœ… **COM Construtor (Boa Prática)**
 ```csharp
 public class Calculos
 {
@@ -444,7 +444,7 @@ public class Calculos
         this.n1 = n1;
         this.n2 = n2;
         this.op = op;
-        Calcular();  // Garante execuÃ§Ã£o
+        Calcular();  // Garante execução
     }
     
     public double Resultado { get => resultado; }
@@ -452,7 +452,7 @@ public class Calculos
 
 // Uso: uma linha, sem erros
 Calculos calc = new Calculos(10, 5, "+");
-double res = calc.Resultado;  // Sempre vÃ¡lido!
+double res = calc.Resultado;  // Sempre válido!
 ```
 
 ### **Palavra-chave `this`**
@@ -463,22 +463,22 @@ Em todos os construtores do projeto, usamos `this`:
 public Calculos(double n1, double n2, string op)
 {
     this.n1 = n1;   // this.n1 = atributo da classe
-                     // n1 (direita) = parÃ¢metro do construtor
+                     // n1 (direita) = parâmetro do construtor
     this.n2 = n2;
     this.op = op;
 }
 ```
 
 **`this` serve para:**
-- Diferenciar **atributos da classe** (`this.n1`) de **parÃ¢metros** (`n1`)
+- Diferenciar **atributos da classe** (`this.n1`) de **parâmetros** (`n1`)
 - Deixar claro que estamos acessando membros do objeto atual
 - Evitar conflitos de nomes
 
 ### **Vantagens dos Construtores neste Projeto:**
-âœ… **Garantia de InicializaÃ§Ã£o**: Objeto sempre criado em estado vÃ¡lido  
+âœ… **Garantia de Inicialização**: Objeto sempre criado em estado válido  
 âœ… **Simplicidade**: Uma linha cria e processa o objeto  
-âœ… **SeguranÃ§a**: ImpossÃ­vel usar objeto sem inicializar  
-âœ… **Encadeamento**: Construtores chamam mÃ©todos que preparam o objeto  
+âœ… **Segurança**: Impossível usar objeto sem inicializar  
+âœ… **Encadeamento**: Construtores chamam métodos que preparam o objeto  
 âœ… **Imutabilidade**: Atributos private + construtor = dados protegidos  
 
 ---
@@ -486,15 +486,15 @@ public Calculos(double n1, double n2, string op)
 ## ðŸš€ Tecnologias Utilizadas
 
 - **.NET 8** - Framework de desenvolvimento
-- **C#** - Linguagem de programaÃ§Ã£o
-- **Windows Forms** - Interface grÃ¡fica
+- **C#** - Linguagem de programação
+- **Windows Forms** - Interface gráfica
 - **Visual Studio 2022** - IDE
 
 ---
 
 ## ðŸ“¦ Como Executar
 
-1. Clone o repositÃ³rio:
+1. Clone o repositório:
 ```bash
 git clone https://github.com/Reverdan/DS23_Noite_POOC-_1sem26.git
 ```
@@ -507,22 +507,22 @@ git clone https://github.com/Reverdan/DS23_Noite_POOC-_1sem26.git
 
 ## ðŸ“š Conceitos de POO Aplicados
 
-| Conceito | AplicaÃ§Ã£o no Projeto |
+| Conceito | Aplicação no Projeto |
 |----------|---------------------|
-| **Responsabilidade Ãšnica** | Cada classe tem uma Ãºnica responsabilidade bem definida |
+| **Responsabilidade Ãšnica** | Cada classe tem uma única responsabilidade bem definida |
 | **Encapsulamento** | Atributos private com propriedades public somente leitura |
-| **Construtores** | InicializaÃ§Ã£o automÃ¡tica e execuÃ§Ã£o de lÃ³gica de inicializaÃ§Ã£o |
-| **SeparaÃ§Ã£o de Camadas** | ApresentaÃ§Ã£o (View) separada do Modelo (Model) e Controle (Controller) |
+| **Construtores** | Inicialização automática e execução de lógica de inicialização |
+| **Separação de Camadas** | Apresentação (View) separada do Modelo (Model) e Controle (Controller) |
 
 ---
 
 ## ðŸ‘¨â€ðŸ’» Autor
 
-Desenvolvido como material didÃ¡tico para a disciplina de **ProgramaÃ§Ã£o Orientada a Objetos em C#** - **DS23 Noite - 1Âº Semestre 2026**
+Desenvolvido como material didático para a disciplina de **Programação Orientada a Objetos em C#** - **DS23 Noite - 1º Semestre 2026**
 
 ---
 
-## ðŸ“„ LicenÃ§a
+## ðŸ“„ Licença
 
-Este projeto Ã© de uso educacional.
+Este projeto é de uso educacional.
 
